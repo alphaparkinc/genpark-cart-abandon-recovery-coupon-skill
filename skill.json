@@ -1,0 +1,26 @@
+{
+  "name": "genpark-cart-abandon-recovery-coupon-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - exit reason survey recovery coupons decider.",
+  "author": "genpark",
+  "category": "retention",
+  "tags": [
+    "cart",
+    "coupon"
+  ],
+  "inputs": {
+    "reason_code": {
+      "type": "string"
+    },
+    "cart_subtotal": {
+      "type": "number"
+    }
+  },
+  "outputs": {
+    "suggested_coupon_code": {
+      "type": "string"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
